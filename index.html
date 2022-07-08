@@ -180,6 +180,10 @@
                 .style.animationDuration = '20s';
             document.getElementById('circle')
                 .className = 'crcl';
+            document.getElementsByClassName("details")[0].style.visibility = "hidden";
+            setTimeout(() => {
+                document.getElementsByClassName("details")[0].style.visibility = "visible";
+            }, 20000);
         }
 
         // Setting the level to Medium by having the
@@ -189,6 +193,10 @@
                 .style.animationDuration = '15s';
             document.getElementById('circle')
                 .className = 'crcl';
+            document.getElementsByClassName("details")[0].style.visibility = "hidden";
+            setTimeout(() => {
+                document.getElementsByClassName("details")[0].style.visibility = "visible";
+            }, 15000);
         }
 
         // Setting the level to Hard by having the
@@ -198,6 +206,10 @@
                 .style.animationDuration = '12s';
             document.getElementById('circle')
                 .className = 'crcl';
+            document.getElementsByClassName("details")[0].style.visibility = "hidden";
+            setTimeout(() => {
+                document.getElementsByClassName("details")[0].style.visibility = "visible";
+            }, 12000);
         }
 
         let cnt = 0;
